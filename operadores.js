@@ -65,3 +65,9 @@ c = c + 5;
 c += 5;
 console.log(c);
 
+//operador ternário
+let nota = 6
+//              teste       verdadeiro      falso
+let resultado = nota >= 6 ? 'Aprovado' : 'Reprovado'
+console.log(resultado)
+

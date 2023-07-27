@@ -13,10 +13,11 @@ function soma(numero1 = 0, numero2 = 0){
     return resultado
     //retorno
 }
-
+//Math
 //(a²+b²)
 function somaQuadrados(valorA, valorB){
-    return valorA**2 + valorB**2
+   // return valorA**2 + valorB**2
+   return Math.pow(valorA,2) + Math.pow(valorB,2)
     
 } 
 
